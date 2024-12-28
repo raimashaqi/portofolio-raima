@@ -1,0 +1,301 @@
+html{
+    scroll-behavior: smooth;
+}
+.banner  {
+    position: relative;
+    overflow: hidden;
+    padding:5vh;
+  }
+  .text-layanan, .text-about{
+    text-align:justify;
+    padding: .5rem 1rem;
+    
+  }
+
+
+
+  #bannerBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+.profile-image {
+    width: 15%; /* Ukuran gambar kecil */
+    height: auto; /* Tinggi gambar mengikuti lebar */
+    display: block; /* Menjadikan gambar sebagai blok */
+    margin: 0 auto; /* Memusatkan gambar */
+    object-fit: cover; 
+}
+
+.profile-img {
+    width: 85%; /* Ukuran gambar kecil */
+    height: auto; /* Tinggi gambar mengikuti lebar */
+    display: block; /* Menjadikan gambar sebagai blok */
+    margin: 0 auto; /* Memusatkan gambar */
+    object-fit: cover; /* Menjaga aspek rasio tanpa distorsi */
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Jumbotron memenuhi tinggi viewport */
+    padding-top: 5rem;
+    background-color: #22313f;
+}
+
+.baris{
+    padding-bottom: 5%;
+}
+
+body,html{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.cardcon{
+    background-color: #22323f;
+}
+
+.cardcon h2{
+    margin-bottom: 2rem;
+}
+
+.navbar{
+    background-color: #22313f;
+}
+
+.btn{
+    background-color: #22313f;
+}
+
+.footer{
+    background-color: #22313f;
+}
+#about, #project, #contact {
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    width: 65%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title, .card-text{
+    font-size: smaller;
+}
+
+.img-layanan {
+    max-height: 100vh; /* Membatasi tinggi gambar hingga 100vh */
+
+    width: 10rem;
+    height: 10rem;
+    border-radius: 15px; /* Radius sudut kotak */
+    background-color: #c5eff7; /* Warna latar belakang kotak */
+    padding: 10px; /* Ruang di dalam kotak */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+
+.img-layanan:hover{transform: scale(1.05); /* Efek zoom saat hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
+}
+
+.nav-item:hover{transform: scale(1.05); 
+    box-shadow: 0 8px 15px #c5eff7(0, 0, 0, 0.3); 
+}
+
+.judul-layanan {
+    margin-top: 20px; /* Jarak atas judul */
+}
+
+#portofolio {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcon {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-wrapper {
+    display: flex;
+    width: 500%;
+    transition: transform 0.5s ease;
+}
+
+.card {
+    flex: 1 0 33.33%; /* Set 3 card per view */
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+
+h5 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.p-porto {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Container styling */
+.container-about {
+    width: 100%;
+    padding: 20px;
+    background-color: #22313f;
+    position: relative;
+    z-index:2;
+}
+
+/* Image styling */
+.profile-image {
+    width: 50%; /* Ukuran gambar */
+    height: 50%; /* Gambar berbentuk kotak */
+    object-fit: cover; /* Menjaga rasio gambar tetap baik */
+    border-radius: 0; /* Menghilangkan rounded circle */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on image */
+.profile-image:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
+}
+
+/* Text alignment */
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Flexbox untuk mengatur teks dan gambar */
+.row.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Agar tetap responsif */
+}
+
+@media (min-width: 768px) {
+    .row.align-items-center {
+        justify-content: space-between;
+    }
+}
+
+.judul{
+
+        font-family: "Silkscreen", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      
+}
+
+/* Container contact positioning */
+.container-contact {
+    position: relative;
+    z-index: 1; /* Form content */
+}
+
+/* Background shape: setengah lingkaran lonjong */
+.background-shape {
+    position: absolute;
+    bottom: 0; /* Letakkan di bagian bawah container */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 30vh; /* Tinggi setengah dari viewport */
+    background-color: lightgray; /* Warna background */
+    border-radius: 50% 50% 0 0; /* Membuat setengah lingkaran di bagian atas */
+    z-index: -1; /* Letakkan di belakang form */
+    overflow: hidden;
+    
+}
+
+
+/* Form styling */
+#contact form {
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    background-color: #22313f;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+  }
+
+h1{
+    font-family: "Bebas+Neue", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+}
+  
+#page h3{
+    font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+}
+
+/* Mengubah gambar menjadi kotak */
+.square-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.square-img:hover{
+    transform: scale(1.05); /* Efek zoom saat hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Bayangan saat hover */
+}
+
+/* Align text to the right */
+.text-end {
+    text-align: right;
+}
+
+/* Untuk container justify ke kanan */
+.container-about {
+    justify-content: space-between;
+}
+
+

@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Raima</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Silkscreen:wght@400;700&display=swap');
+    </style>
+</head>
+  <body data-aos-easing = "ease" data-aos-duration="400" data-aos-delay="0">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#">Raima Shaqi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Page">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Layanan">Layanan</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Tim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Heroes Section -->
+     <section id="Page" class="banner min-vh-100">
+        <canvas id="bannerBackground"></canvas>
+        <div class=" text-center min-vh-100 d-flex flex-column align-items-center justify-content-center min-vh-100">
+         <h1 class="display-4 judul" data-aos="flip-left" data-aos-duration="2000" data-aos-easing="ease-out-cubic">KNOW ME MORE</h1>
+         <h3 data-aos="flip-right" data-aos-duration="2000"  data-aos-easing="ease-out-cubic">Raima Shaqinah Alamsyah | Website & 3D designer</h3>
+        </div>
+    </section>
+    <!-- Akhir Heroes Section -->
+     <!-- lAYANAN -->
+    <section id="Layanan">
+        <div class="jumbotron text-center min-vh-100 d-flex flex-column align-items-center justify-content-center min-vh-100 text-white">
+            <div class="container-contact">
+                <div class="row text-center mb-3">
+                    <div class="col mt-lg-0" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                        <h1>Layanan</h1>
+                    </div>
+                    <div class="container text-center">
+                        <div class="row align-items-center">
+                          <div class="col">
+                            <h4 class="judul-layanan" data-aos="fade-right" data-aos-duration="1000">Programming</h4>
+                            <img class="img-layanan" src="img/Coding_programming_icon-removebg-preview.png" data-aos="fade-right" data-aos-duration="1000">
+                            <p class="text-layanan" data-aos="fade-right" data-aos-duration="1000">Tim kami ahli dalam pengembangan website yang responsif dan user-friendly, memastikan pengalaman terbaik bagi pengunjung Anda.</p>
+                          </div>
+                          <div class="col">
+                            <h4 class="judul-layanan" data-aos="fade-up" data-aos-duration="1000" fade up>3D Designer</h4>
+                            <img class="img-layanan" src="img/Clapperboard_icons_for_free_download___Freepik-removebg-preview.png" data-aos="flip-up" data-aos-duration="1000">
+                            <p class="text-layanan" data-aos="fade-right" data-aos-duration="1000">Kami menghadirkan desain 3D yang inovatif dan realistis, baik untuk kebutuhan arsitektur, produk, maupun animasi dengan visual memukau. </p>
+                       
+                        </div>
+                          <div class="col">
+                                <h4 class="judul-layanan" data-aos="fade-left" data-aos-duration="1000">Embedded</h4>
+                                <img class="img-layanan" src="img/Free_Vector___Illustration_of_circuit-removebg-preview.png" data-aos="fade-left" data-aos-duration="1000">
+                               <p class="text-layanan" data-aos="fade-left" data-aos-duration="1000">Dengan solusi embedded yang inovatif, kami mengintegrasikan konten multimedia ke dalam platform Anda.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir lAYANAN -->
+     <!-- Portofolio -->
+     
+<section id="portofolio" class="bg-light min-vh-100">
+    <div class=" mt-lg-0 bg-light">
+        <h1 data-aos="fade-right" data-aos-duration="1000">Portofolio</h1>
+        <p data-aos="fade-left" data-aos-duration="1000">Projek yang telah kami kerjakan.</p>
+    </div>
+    <div class="cardcon">
+        <div class="card-wrapper  ">
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="img/sister.jpeg" alt="Sistem Tertanam">
+                <div class="card-body">
+                    <h5>Sistem Tertanam</h5>
+                    <p class="p-porto">Projek ini berguna untuk mengetahui kinerja dari sensor DHT11 (sensor suhu).</p>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-down" data-aos-duration="1000" >
+                <img src="img/3d.jpeg" alt="Design 3D">
+                <div class="card-body">
+                    <h5>Design 3D</h5>
+                    <p class="p-porto">Contoh pembuatan desain 3D menggunakan SketchUp maupun Blender.</p>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="img/web.jpg" alt="Website">
+                <div class="card-body">
+                    <h5>Website</h5>
+                    <p class="p-porto">Projek ini landing page dari pembuatan website yang kami buat.</p>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-down" data-aos-duration="1000" >
+                <img src="img/prokonn.jpeg" alt="QuantyIq">
+                <div class="card-body">
+                    <h5>QuantyIq</h5>
+                    <p class="p-porto">Sebuah alat untuk otomasi perhitungan produksi di semua industri.</p>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" >
+                <img src="img/pid.jpeg" alt="Cilor">
+                <div class="card-body">
+                    <h5>PID Controller</h5>
+                    <p class="p-porto">Rangkaian PID controller sederhana untuk mengontrol kecepatan RPM.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      <!-- Akhir Portofolio -->
+    <!-- About Section -->
+    <section id="about">
+        <div class="container-about d-flex flex-column align-items-center justify-content-center min-vh-100">
+            <div class="row align-items-center mb-3 text-center">
+                <div class="col-md-6 text-center">
+                    <img src="img/fotoku.jpeg" alt="Raima Shaqinah Alamsyah" class="profile-image" data-aos="zoom-in" data-aos-duration="1000">
+                </div>
+                <!-- Kolom teks di sebelah kiri -->
+                <div class="col-md-6 text-md-end text-center mb-3 mb-md-0 text-white">
+                    <h1 class="text-about" data-aos="flip-left" data-aos-duration="1000">TENTANG SAYA</h1>
+                    <p class="text-about" data-aos="fade-right" data-aos-duration="1000">Saya adalah mahasiswa Teknik Komputer Universitas Pendidikan Indonesia (UPI) Cibiru semester 5 yang tengah mempelajari pemrograman web.</p>
+                    <p class="text-about" data-aos="fade-up-right" data-aos-duration="1000">Jelajahi berbagai project yang pernah saya buat dan lihat bagaimana saya mengimplementasikan teknologi dalam solusi kreatif. Temukan bagaimana saya terus berkembang di bidang teknologi.</p>
+                </div>
+                <!-- Kolom gambar di sebelah kanan -->
+                
+            </div>
+        </div>
+    </section>
+       <!-- Akhir About -->
+    <!-- Project -->
+
+    <section id="project" >
+        <div class="container-about pt-5 pb-5 bg-light d-flex align-items-start  justify-content-center  mt-1 pt-3">
+            <div class="row w-100 gx-4 gy-4">
+                <!-- Kolom Gambar -->
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-6 text-center tim">
+                            <img src="img/fatih.jpeg" class="square-img mb-3 profile-img" data-aos="flip-left" data-aos-duration="1000" />
+                            <button class="btn btn-primary" onclick="showModal('Fatih Nurrobi Alanshori', 'fatihnurrobi@upi.edu', '@fatih_nurrobi', 'https://instagram.com/fatih_nurrobi')">Fatih</button>
+                        </div>
+                        <div class="col-6 text-center tim">
+                            <img src="img/anda.png" class="square-img mb-3 profile-img" data-aos="zoom-in" data-aos-duration="1000" />
+                            <button class="btn btn-primary" onclick="showModal('Andakara Athaya Sidiq', 'andakaraas@upi.edu', '@andyathsid', 'https://instagram.com/andyathsid')">Anda</button>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6 text-center tim">
+                            <img src="img/rara.jpeg" class="square-img mb-3 profile-img" data-aos="flip-right" data-aos-duration="1000" />
+                            <button class="btn btn-primary" onclick="showModal('Raima Shaqinah Alamsyah', 'shaqiraima@upi.edu', '@raimashaqi', 'https://instagram.com/raimashaqi')">Raima</button>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6 text-center tim">
+                            <img src="img/HASNA.jpeg" class="square-img mb-3 profile-img" data-aos="flip-left" data-aos-duration="1000" />
+                            <button class="btn btn-primary" onclick="showModal('Hasna Putri Priswati', 'hasapriswati@upi.edu', '@hasnaputri.p', 'https://instagram.com/hasnaputri.p')">Hasna</button>
+                        </div>
+                        <div class="col-6 text-center tim">
+                            <img src="img/bilalbg.jpg" class="square-img mb-3 profile-img" data-aos="flip-left" data-aos-duration="1000" />
+                            <button class="btn btn-primary" onclick="showModal('M. Bilal Azizi Mardhiyano', 'mbilalma@upi.edu', '@mbilalma_', 'https://instagram.com/mbilalma_')">Bilal</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Kolom Teks -->
+                <div class="col-md-6 d-flex flex-column justify-content-center text-end">
+                    <h1 class="display-3" id="staff" data-aos="zoom-out" data-aos-duration="1000">Tim Kami</h1>
+                    <p class="mb-4" data-aos="flip-left" data-aos-duration="1000">Dibersamai tim berpengalaman yang berdedikasi untuk memberikan yang terbaik di bidangnya masing-masing.</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal Structure -->
+        <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="infoModalLabel"><strong>Informasi Tim</strong></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="modal-name"></p>
+                        <p><strong>Email:</strong> <span id="modal-email"></span></p>
+                        <p><strong>Instagram:</strong> <a href="#" id="modal-social" target="_blank"></a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Akhir Project -->
+    <section>
+        <div class="container-fluid client pt-3 pb-3 align-items-center justify-content-center ">
+            <div class="container text-center mb-0 pb-1">
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col" >
+                <img data-aos="flip-left" data-aos-duration="1000" src="https://cdn.iconscout.com/icon/free/png-256/microsoft-28-761688.png" />
+                </div>
+                <div class="col">
+                <img data-aos="flip-left" data-aos-duration="1000" src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png" />
+                </div>
+                <div class="col">
+                <img data-aos="flip-left" data-aos-duration="1000" src="https://cdn-icons-png.flaticon.com/512/38/38669.png" />
+                </div>
+                <div class="col">
+                <img data-aos="flip-left" data-aos-duration="1000" src="https://i.pinimg.com/originals/20/1d/17/201d17590b3a7bc8939ca37e577bbbd8.png" />
+                </div>
+                <div class="col">
+                <img  data-aos="flip-left" data-aos-duration="1000" src="data:image/png;base64,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" />
+                </div>
+            </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section id="contact">
+        <!-- client -->
+          <!-- akhir client -->
+        <div class="container-contact position-relative mt-lg-0 pt-0">
+            <div class="background-shape"></div> <!-- Elemen background berbentuk setengah lingkaran -->
+                <div class="row text-center mt-1">
+                    <div class="col">
+                        <h1 data-aos="zoom-in" data-aos-duration="1000">Contact Me</h1>
+                    </div>
+                </div>
+                <div class="row baris justify-content-center">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <input type="text" class="form-control" id="message" placeholder="Enter your message">
+                            </div>
+                            <button type="submit" class="btn text-center text-white justify-content-center align-items-center">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+<!-- Penutup section -->
+    <section>
+        <div class="footer mt-lg-0">
+            <footer class="text-white text-center pb-1 py-3 ">
+                <p>CopyRight &copy; 2024 Raima Shaqinah Alamsyah</p>
+            </footer>
+        </div>
+    </section>
+    <!-- Akhir Footer -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+  AOS.init();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
